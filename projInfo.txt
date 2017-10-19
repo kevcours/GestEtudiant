@@ -1,0 +1,71 @@
+mercredi 27 septembre 2017, 14:10:35 (UTC+0200)
+  19 application.h
+   0 apreciation.h
+  10 bulletin.h
+  28 eleve.h
+   0 evalutation.h
+   0 matiere.h
+   9 note.h
+  26 section.h
+  92 total
+mercredi 27 septembre 2017, 15:57:22 (UTC+0200)
+  22 application.h
+   0 apreciation.h
+  15 bulletin.h
+  30 eleve.h
+  21 evaluation.h
+  16 matiere.h
+  16 note.h
+  32 section.h
+  87 application.cpp
+   6 main.cpp
+ 245 total
+jeudi 28 septembre 2017, 10:22:20 (UTC+0200)
+  87 application.cpp
+   6 main.cpp
+  22 application.h
+   0 apreciation.h
+  15 bulletin.h
+  30 eleve.h
+  21 evaluation.h
+  16 matiere.h
+  16 note.h
+  32 section.h
+ 245 total
+mardi 3 octobre 2017, 14:07:17 (UTC+0200)
+ 248 application.cpp
+   6 main.cpp
+  15 matiere.cpp
+  18 section.cpp
+  22 application.h
+   0 apreciation.h
+  15 bulletin.h
+  30 eleve.h
+  21 evaluation.h
+  16 matiere.h
+  16 note.h
+  34 section.h
+ 441 total
+Nombre classe dans le fichier :
+7
+ Nombre de methodes dans le fichiers: 
+44
+lundi 9 octobre 2017, 16:16:15 (UTC+0200)
+  256 application.cpp
+   54 eleve.cpp
+    6 main.cpp
+   15 matiere.cpp
+  218 section.cpp
+   22 application.h
+    0 apreciation.h
+   15 bulletin.h
+   31 eleve.h
+   21 evaluation.h
+   16 matiere.h
+   16 note.h
+   35 section.h
+  705 total
+Nombre classe dans le fichier :
+7
+ Nombre de methodes dans le fichiers: 
+46

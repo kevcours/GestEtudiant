@@ -1,0 +1,180 @@
+\hypertarget{class_application}{\section{Application Class Reference}
+\label{class_application}\index{Application@{Application}}
+}
+
+
+{\ttfamily \#include $<$application.\+h$>$}
+
+
+
+Collaboration diagram for Application\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=197pt]{class_application__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_application_a68965449404743bf1add056784d6cf81}{run} ()
+\item 
+vector$<$ \hyperlink{class_matiere}{Matiere} $>$ \hyperlink{class_application_a2aa1a9c2e0c773e3817acb4c8ff87f1d}{get\+Vect\+Les\+Matiere} ()
+\begin{DoxyCompactList}\small\item\em Permet a la classe section de recuperer les differente matiere de l'application. \end{DoxyCompactList}\item 
+void \hyperlink{class_application_a0c235075ac547b2cdec2e9fb8549747d}{affiche\+Menu\+Appli} ()
+\begin{DoxyCompactList}\small\item\em Afficher les menu de l'application en fonction des matieres et des sections enregistrées. \end{DoxyCompactList}\item 
+char \hyperlink{class_application_a9e50be67265ccc03145ed69305fc86f5}{saisie\+Choix\+Appli} ()
+\item 
+void \hyperlink{class_application_a48c55a5716d6731fe6191881f692e57d}{appliquer\+Le\+Choix} (char le\+Choix)
+\begin{DoxyCompactList}\small\item\em Exectute l'action lier au choix de l'utilisateur. \end{DoxyCompactList}\item 
+void \hyperlink{class_application_a4a0c001b058e6ff628e38bce5cc6c56b}{creer\+Section} ()
+\begin{DoxyCompactList}\small\item\em Permet a l'utilisateur de créer une nouvelle section dans l'application. \end{DoxyCompactList}\item 
+void \hyperlink{class_application_aea20c849e7ce31bf60b091b45e631de7}{creer\+Matiere} ()
+\begin{DoxyCompactList}\small\item\em Permet a l'utilisateur de créer une nouvelle matiere dans l'application. \end{DoxyCompactList}\item 
+void \hyperlink{class_application_a680db3e1303890352806d7a7e9be5601}{afficher\+Section} ()
+\begin{DoxyCompactList}\small\item\em Permet a l'utilisateur d'afficher toute les sections stocker dans l'application. \end{DoxyCompactList}\item 
+void \hyperlink{class_application_a00c25305470d86eedca9345b9a714ca0}{afficher\+Matiere} ()
+\begin{DoxyCompactList}\small\item\em Permet a l'utilisateur d'afficher toute les matieres stocker dans l'application. \end{DoxyCompactList}\item 
+void \hyperlink{class_application_ad71a2751bd07f7318be311b8128f4c3f}{selectionner\+Section} ()
+\begin{DoxyCompactList}\small\item\em Permet a l'utilisateur de selectionner une section parmis toute celle renseigner dans l'application afin d'acceder a son menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \hyperlink{class_section}{Section} $>$ \hyperlink{class_application_afcbd29699ca1631db2798a23ccb5a663}{vect\+Les\+Sections}
+\begin{DoxyCompactList}\small\item\em Conteneur des sections contient l'ensemble section ajouter par l'utilisateur. \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_matiere}{Matiere} $>$ \hyperlink{class_application_ac89cdfc35f9f6b669fc56fda66f97757}{vect\+Les\+Matieres}
+\begin{DoxyCompactList}\small\item\em Conteneur des matieres contient toute les matieres enregistrées par l'utilisateurs. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_application_a0c235075ac547b2cdec2e9fb8549747d}{\index{Application@{Application}!affiche\+Menu\+Appli@{affiche\+Menu\+Appli}}
+\index{affiche\+Menu\+Appli@{affiche\+Menu\+Appli}!Application@{Application}}
+\subsubsection[{affiche\+Menu\+Appli}]{\setlength{\rightskip}{0pt plus 5cm}Application\+::affiche\+Menu\+Appli (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_application_a0c235075ac547b2cdec2e9fb8549747d}
+
+
+Afficher les menu de l'application en fonction des matieres et des sections enregistrées. 
+
+\hypertarget{class_application_a00c25305470d86eedca9345b9a714ca0}{\index{Application@{Application}!afficher\+Matiere@{afficher\+Matiere}}
+\index{afficher\+Matiere@{afficher\+Matiere}!Application@{Application}}
+\subsubsection[{afficher\+Matiere}]{\setlength{\rightskip}{0pt plus 5cm}Application\+::afficher\+Matiere (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_application_a00c25305470d86eedca9345b9a714ca0}
+
+
+Permet a l'utilisateur d'afficher toute les matieres stocker dans l'application. 
+
+\hypertarget{class_application_a680db3e1303890352806d7a7e9be5601}{\index{Application@{Application}!afficher\+Section@{afficher\+Section}}
+\index{afficher\+Section@{afficher\+Section}!Application@{Application}}
+\subsubsection[{afficher\+Section}]{\setlength{\rightskip}{0pt plus 5cm}Application\+::afficher\+Section (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_application_a680db3e1303890352806d7a7e9be5601}
+
+
+Permet a l'utilisateur d'afficher toute les sections stocker dans l'application. 
+
+\hypertarget{class_application_a48c55a5716d6731fe6191881f692e57d}{\index{Application@{Application}!appliquer\+Le\+Choix@{appliquer\+Le\+Choix}}
+\index{appliquer\+Le\+Choix@{appliquer\+Le\+Choix}!Application@{Application}}
+\subsubsection[{appliquer\+Le\+Choix}]{\setlength{\rightskip}{0pt plus 5cm}Application\+::appliquer\+Le\+Choix (
+\begin{DoxyParamCaption}
+\item[{char}]{le\+Choix}
+\end{DoxyParamCaption}
+)}}\label{class_application_a48c55a5716d6731fe6191881f692e57d}
+
+
+Exectute l'action lier au choix de l'utilisateur. 
+
+\hypertarget{class_application_aea20c849e7ce31bf60b091b45e631de7}{\index{Application@{Application}!creer\+Matiere@{creer\+Matiere}}
+\index{creer\+Matiere@{creer\+Matiere}!Application@{Application}}
+\subsubsection[{creer\+Matiere}]{\setlength{\rightskip}{0pt plus 5cm}Application\+::creer\+Matiere (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_application_aea20c849e7ce31bf60b091b45e631de7}
+
+
+Permet a l'utilisateur de créer une nouvelle matiere dans l'application. 
+
+\hypertarget{class_application_a4a0c001b058e6ff628e38bce5cc6c56b}{\index{Application@{Application}!creer\+Section@{creer\+Section}}
+\index{creer\+Section@{creer\+Section}!Application@{Application}}
+\subsubsection[{creer\+Section}]{\setlength{\rightskip}{0pt plus 5cm}Application\+::creer\+Section (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_application_a4a0c001b058e6ff628e38bce5cc6c56b}
+
+
+Permet a l'utilisateur de créer une nouvelle section dans l'application. 
+
+\hypertarget{class_application_a2aa1a9c2e0c773e3817acb4c8ff87f1d}{\index{Application@{Application}!get\+Vect\+Les\+Matiere@{get\+Vect\+Les\+Matiere}}
+\index{get\+Vect\+Les\+Matiere@{get\+Vect\+Les\+Matiere}!Application@{Application}}
+\subsubsection[{get\+Vect\+Les\+Matiere}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ {\bf Matiere} $>$ Application\+::get\+Vect\+Les\+Matiere (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_application_a2aa1a9c2e0c773e3817acb4c8ff87f1d}
+
+
+Permet a la classe section de recuperer les differente matiere de l'application. 
+
+\begin{DoxyReturn}{Returns}
+vect\+Les\+Matiere 
+\end{DoxyReturn}
+\hypertarget{class_application_a68965449404743bf1add056784d6cf81}{\index{Application@{Application}!run@{run}}
+\index{run@{run}!Application@{Application}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void Application\+::run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_application_a68965449404743bf1add056784d6cf81}
+\hypertarget{class_application_a9e50be67265ccc03145ed69305fc86f5}{\index{Application@{Application}!saisie\+Choix\+Appli@{saisie\+Choix\+Appli}}
+\index{saisie\+Choix\+Appli@{saisie\+Choix\+Appli}!Application@{Application}}
+\subsubsection[{saisie\+Choix\+Appli}]{\setlength{\rightskip}{0pt plus 5cm}Application\+::saisie\+Choix\+Appli (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_application_a9e50be67265ccc03145ed69305fc86f5}
+\begin{DoxyReturn}{Returns}
+Le choix saisie pas l'utilisateur 
+\end{DoxyReturn}
+\hypertarget{class_application_ad71a2751bd07f7318be311b8128f4c3f}{\index{Application@{Application}!selectionner\+Section@{selectionner\+Section}}
+\index{selectionner\+Section@{selectionner\+Section}!Application@{Application}}
+\subsubsection[{selectionner\+Section}]{\setlength{\rightskip}{0pt plus 5cm}Application\+::selectionner\+Section (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_application_ad71a2751bd07f7318be311b8128f4c3f}
+
+
+Permet a l'utilisateur de selectionner une section parmis toute celle renseigner dans l'application afin d'acceder a son menu. 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_application_ac89cdfc35f9f6b669fc56fda66f97757}{\index{Application@{Application}!vect\+Les\+Matieres@{vect\+Les\+Matieres}}
+\index{vect\+Les\+Matieres@{vect\+Les\+Matieres}!Application@{Application}}
+\subsubsection[{vect\+Les\+Matieres}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Matiere}$>$ Application\+::vect\+Les\+Matieres\hspace{0.3cm}{\ttfamily [private]}}}\label{class_application_ac89cdfc35f9f6b669fc56fda66f97757}
+
+
+Conteneur des matieres contient toute les matieres enregistrées par l'utilisateurs. 
+
+\hypertarget{class_application_afcbd29699ca1631db2798a23ccb5a663}{\index{Application@{Application}!vect\+Les\+Sections@{vect\+Les\+Sections}}
+\index{vect\+Les\+Sections@{vect\+Les\+Sections}!Application@{Application}}
+\subsubsection[{vect\+Les\+Sections}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Section}$>$ Application\+::vect\+Les\+Sections\hspace{0.3cm}{\ttfamily [private]}}}\label{class_application_afcbd29699ca1631db2798a23ccb5a663}
+
+
+Conteneur des sections contient l'ensemble section ajouter par l'utilisateur. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{application_8h}{application.\+h}\item 
+\hyperlink{application_8cpp}{application.\+cpp}\end{DoxyCompactItemize}
